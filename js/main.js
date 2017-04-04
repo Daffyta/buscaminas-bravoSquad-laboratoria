@@ -19,3 +19,4 @@ function eliminarBoton() {
 //    this.style.display = "none";
 //    padre.style.backgroundColor = "#00BFFF "
 // }
+// Prueba fer

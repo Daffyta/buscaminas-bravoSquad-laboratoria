@@ -46,4 +46,4 @@ function numeros() {
     }else if(this.value==2){
         padre.innerText="2";
     }
-
+}

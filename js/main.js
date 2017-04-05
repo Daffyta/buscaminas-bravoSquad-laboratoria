@@ -53,3 +53,10 @@ function numeros() {
 
     }
 }
+
+var botonReiniciar = document.getElementById("botonReiniciar");
+botonReiniciar.addEventListener("click", reiniciarJuego);
+
+function reiniciarJuego(){
+  window.location.reload();
+}

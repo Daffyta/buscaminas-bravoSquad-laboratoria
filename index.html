@@ -3,40 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Buscaminas</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Buscaminas</h1>
-    <table style="border:solid 1px;">
-      <tr>
-        <td id="celdaVacia"><button id="boton">2</button></td>
-        <td id="celdaVacia2"><button id="boton2">2</button></td>
-        <td id="celdaVacia3"><button id="boton3">2</button></td>
-        <td><button>bum</button></td>
-      </tr>
-      <tr>
-        <td><button></button></td>
-        <td><button></button></td>
-        <td><button></button></td>
-        <td><button></button></td>
-      </tr>
-      <tr>
-        <td><button></button></td>
-        <td><button></button></td>
-        <td><button></button></td>
-        <td><button></button></td>
-      </tr>
-      <tr>
-        <td><button></button></td>
-        <td><button></button></td>
-        <td><button></button></td>
-        <td><button></button></td>
-      </tr>
+    <h1>B U S C A M I N A S</h1>
+    <table>
+        <tr>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
 
-
-
+        </tr>
+        <tr>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="1"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="1"></button></td>
+        </tr>
+        <tr>
+            <td class="celdas"><button id="celdasVacias1" style='width:25px; height:25px'></button></td>
+            <td class="celdas"><button id="celdasVacias2" style='width:25px; height:25px'></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="1"></button></td>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
+        </tr>
     </table>
-    <script type="text/javascript" src="js/main.js">
-
-    </script>
-  </body>
+    <script src="js/main.js"></script>
+</body>
 </html>
